@@ -1,0 +1,198 @@
+name: ✨ Sugerencia de Mejora
+description: Sugiere una mejora o nueva característica para el modpack
+title: "[MEJORA] "
+labels: ["mejora", "necesita revisión"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Gracias por tu sugerencia
+        Estamos siempre buscando formas de mejorar Potatously Optimized. Tu feedback es valioso.
+        
+        Esta plantilla es para sugerencias que NO son mods nuevos.
+        - ✅ Cambios en configuraciones
+        - ✅ Mejoras en documentación
+        - ✅ Nuevas características del pack
+        - ✅ Mejoras en organización
+
+  - type: dropdown
+    id: tipo-mejora
+    attributes:
+      label: 🎯 Tipo de Mejora
+      description: ¿Qué tipo de mejora estás sugiriendo?
+      options:
+        - "⚙️ Cambio en configuración de mods"
+        - "📝 Mejora en documentación"
+        - "🎨 Mejora visual/estética"
+        - "🚀 Nueva característica del pack"
+        - "📁 Organización del repositorio"
+        - "🔧 Herramientas de desarrollo"
+        - "🌍 Traducción/Localización"
+        - "Otro (especificar en descripción)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problema
+    attributes:
+      label: 🤔 ¿Qué problema resolvería?
+      description: Describe el problema o limitación actual
+      placeholder: |
+        Actualmente es difícil encontrar información sobre...
+        Los usuarios se confunden con...
+        Sería más eficiente si...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solucion
+    attributes:
+      label: 💡 Solución Propuesta
+      description: Describe tu idea de mejora en detalle
+      placeholder: |
+        Propongo que...
+        Podríamos implementar...
+        Sería útil añadir...
+    validations:
+      required: true
+
+  - type: textarea
+    id: beneficios
+    attributes:
+      label: ✨ Beneficios
+      description: ¿Qué beneficios traería esta mejora?
+      placeholder: |
+        - Mejoraría la experiencia de usuario porque...
+        - Facilitaría el proceso de...
+        - Ahorraría tiempo al...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternativas
+    attributes:
+      label: 🔀 Alternativas Consideradas
+      description: ¿Has pensado en otras formas de resolver esto?
+      placeholder: |
+        También consideré:
+        1. Opción A: pero tiene el problema de...
+        2. Opción B: aunque no es tan efectiva porque...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: prioridad
+    attributes:
+      label: 📊 Prioridad Sugerida
+      description: ¿Qué tan importante consideras esta mejora?
+      options:
+        - "🔴 Alta - Afecta la experiencia significativamente"
+        - "🟡 Media - Sería una mejora notable"
+        - "🟢 Baja - Nice to have"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: audiencia
+    attributes:
+      label: 👥 ¿A quién beneficiaría?
+      description: ¿Quién se beneficiaría de esta mejora?
+      options:
+        - "Todos los usuarios"
+        - "Usuarios nuevos principalmente"
+        - "Usuarios avanzados principalmente"
+        - "Contribuidores del proyecto"
+        - "Administradores de servidores"
+        - "Creadores de contenido"
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementacion
+    attributes:
+      label: 🛠️ Ideas de Implementación
+      description: Si tienes ideas de cómo implementarlo, compártelas
+      placeholder: |
+        Esto podría implementarse mediante...
+        Los pasos serían...
+        Requeriría cambios en...
+    validations:
+      required: false
+
+  - type: textarea
+    id: ejemplos
+    attributes:
+      label: 📸 Ejemplos o Referencias
+      description: Enlaces, screenshots, o ejemplos de modpacks/proyectos similares
+      placeholder: |
+        Modpack X lo hace así: [enlace]
+        Ejemplo visual: [screenshot]
+        Similar a lo que hace: [referencia]
+    validations:
+      required: false
+
+  - type: dropdown
+    id: disposicion-ayudar
+    attributes:
+      label: 🤝 ¿Estarías dispuesto a ayudar?
+      description: ¿Te gustaría contribuir con la implementación?
+      options:
+        - "✅ Sí, puedo ayudar a implementarlo"
+        - "⚠️ Puedo ayudar pero necesito orientación"
+        - "📝 Puedo ayudar con documentación/testing"
+        - "❌ Solo sugiero, no puedo implementar"
+    validations:
+      required: true
+
+  - type: textarea
+    id: impacto-rendimiento
+    attributes:
+      label: ⚡ Impacto en Rendimiento
+      description: Si aplica, ¿cómo afectaría al rendimiento?
+      placeholder: |
+        Esta mejora podría:
+        - Mejorar FPS porque...
+        - Reducir uso de RAM porque...
+        - No afectar rendimiento
+    validations:
+      required: false
+
+  - type: textarea
+    id: impacto-compatibilidad
+    attributes:
+      label: 🔗 Impacto en Compatibilidad
+      description: ¿Afectaría la compatibilidad con servidores u otros mods?
+      placeholder: |
+        Esta mejora:
+        - Mantendría compatibilidad con servidores vanilla
+        - Requeriría que servidores también...
+        - No afectaría compatibilidad
+    validations:
+      required: false
+
+  - type: textarea
+    id: contexto
+    attributes:
+      label: 📋 Contexto Adicional
+      description: Cualquier información extra relevante
+      placeholder: |
+        Información adicional que pueda ayudar...
+        Experiencia personal relacionada...
+        Otros comentarios...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: verificaciones
+    attributes:
+      label: ✔️ Verificaciones
+      description: Confirma lo siguiente
+      options:
+        - label: He buscado y esta mejora no ha sido sugerida antes
+          required: true
+        - label: Esta mejora es específica y accionable
+          required: true
+        - label: He considerado el impacto en otros usuarios
+          required: true
+        - label: He leído la guía de contribución
+          required: true

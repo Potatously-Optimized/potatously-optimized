@@ -1,0 +1,543 @@
+name: 💡 Sugerencia de Mod
+description: Sugiere un mod para incluir en el modpack
+title: "[MOD] "
+labels: ["sugerencia", "mod", "necesita revisión"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Gracias por sugerir un mod
+        Evaluamos cada sugerencia cuidadosamente. Por favor proporciona toda la información posible.
+        
+        **Recuerda que aceptamos mods que:**
+        - ✅ Sean compatibles con Fabric 1.21
+        - ✅ Mejoren rendimiento o añadan calidad de vida
+        - ✅ No cambien mecánicas vanilla
+        - ✅ Sean estables y activamente mantenidos
+
+  - type: input
+    id: nombre-mod
+    attributes:
+      label: 📦 Nombre del Mod
+      description: ¿Cómo se llama el mod?
+      placeholder: "Ejemplo: Better Biome Blend"
+    validations:
+      required: true
+
+  - type: input
+    id: autor-mod
+    attributes:
+      label: 👤 Autor del Mod
+      description: ¿Quién desarrolla el mod?
+      placeholder: "Ejemplo: JellySquid"
+    validations:
+      required: true
+
+  - type: input
+    id: link-modrinth
+    attributes:
+      label: 🔗 Link de Modrinth
+      description: Enlace al mod en Modrinth (preferido)
+      placeholder: "https://modrinth.com/mod/ejemplo"
+    validations:
+      required: false
+
+  - type: input
+    id: link-curseforge
+    attributes:
+      label: 🔗 Link de CurseForge
+      description: Enlace al mod en CurseForge (si no está en Modrinth)
+      placeholder: "https://www.curseforge.com/minecraft/mc-mods/ejemplo"
+    validations:
+      required: false
+
+  - type: input
+    id: link-github
+    attributes:
+      label: 🔗 Link de GitHub
+      description: Enlace al repositorio del mod (opcional)
+      placeholder: "https://github.com/usuario/mod"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: categoria
+    attributes:
+      label: 📂 Categoría del Mod
+      description: ¿En qué categoría entra este mod?
+      options:
+        - "⚡ Optimización de Rendimiento"
+        - "🎨 Mejoras Visuales"
+        - "🎮 Calidad de Vida"
+        - "🔧 Utilidades"
+        - "🌍 Compatibilidad"
+        - "🔊 Audio"
+        - "📝 Interfaz de Usuario"
+        - "Otra (especificar en descripción)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: 📝 ¿Qué hace este mod?
+      description: Describe brevemente la funcionalidad del mod
+      placeholder: |
+        Este mod mejora el blending entre biomas, haciendo transiciones más suaves sin impactar el rendimiento negativamente.
+    validations:
+      required: true
+
+  - type: textarea
+    id: beneficios
+    attributes:
+      label: ✨ ¿Por qué debería incluirse?
+      description: Explica qué beneficios traería al modpack
+      placeholder: |
+        - Mejora la experiencia visual
+        - No reduce FPS
+        - Es compatible con Sodium
+        - Muy solicitado por la comunidad
+    validations:
+      required: true
+
+  - type: dropdown
+    id: probado
+    attributes:
+      label: 🧪 ¿Has probado el mod personalmente?
+      description: ¿Has usado este mod y puedes dar feedback de primera mano?
+      options:
+        - "Sí, lo he probado extensivamente"
+        - "Sí, lo he probado brevemente"
+        - "No, pero conozco sus características"
+        - "No, solo lo encontré"
+    validations:
+      required: true
+
+  - type: textarea
+    id: experiencia
+    attributes:
+      label: 💭 Tu experiencia con el mod
+      description: Si lo probaste, comparte tu experiencia
+      placeholder: |
+        Lo usé durante 2 semanas y noté que...
+        - Rendimiento: Sin cambios negativos
+        - Estabilidad: Sin crashes
+        - Compatibilidad: Funciona bien con Sodium/Iris
+    validations:
+      required: false
+
+  - type: dropdown
+    id: impacto-rendimiento
+    attributes:
+      label: ⚡ Impacto en Rendimiento
+      description: ¿Cómo afecta el mod al rendimiento?
+      options:
+        - "🟢 Mejora el rendimiento"
+        - "🟡 Neutral (sin impacto notable)"
+        - "🟠 Impacto negativo menor"
+        - "🔴 Impacto negativo significativo"
+        - "❓ Desconocido"
+    validations:
+      required: true
+
+  - type: input
+    id: version-mod
+    attributes:
+      label: 📌 Versión del Mod
+      description: ¿Qué versión del mod sugieres?
+      placeholder: "Ejemplo: 1.2.3"
+    validations:
+      required: false
+
+  - type: input
+    id: tamano
+    attributes:
+      label: 💾 Tamaño del Mod
+      description: Tamaño aproximado del archivo .jar
+      placeholder: "Ejemplo: 150 KB"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: compatibilidad-sodium
+    attributes:
+      label: 🔵 ¿Compatible con Sodium?
+      description: ¿El mod funciona con Sodium sin problemas?
+      options:
+        - "✅ Sí, totalmente compatible"
+        - "⚠️ Compatible con ajustes"
+        - "❌ No compatible"
+        - "❓ Desconocido"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: compatibilidad-iris
+    attributes:
+      label: 🌈 ¿Compatible con Iris Shaders?
+      description: ¿El mod funciona con Iris sin problemas?
+      options:
+        - "✅ Sí, totalmente compatible"
+        - "⚠️ Compatible con ajustes"
+        - "❌ No compatible"
+        - "❓ Desconocido"
+        - "N/A (no relevante)"
+    validations:
+      required: true
+
+  - type: input
+    id: licencia
+    attributes:
+      label: 📜 Licencia del Mod
+      description: ¿Bajo qué licencia está el mod?
+      placeholder: "Ejemplo: MIT, LGPL-3.0, ARR, etc."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: estado-desarrollo
+    attributes:
+      label: 🔄 Estado de Desarrollo
+      description: ¿El mod está activamente mantenido?
+      options:
+        - "🟢 Activo (actualizado recientemente)"
+        - "🟡 Estable (no requiere actualizaciones)"
+        - "🟠 Mantenimiento ocasional"
+        - "🔴 Abandonado"
+        - "❓ Desconocido"
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternativas
+    attributes:
+      label: 🔀 Mods Alternativos
+      description: ¿Conoces mods similares que hagan lo mismo?
+      placeholder: |
+        Otros mods que hacen algo parecido:
+        - Mod A: hace X pero es más pesado
+        - Mod B: hace Y pero menos eficiente
+    validations:
+      required: false
+
+  - type: dropdown
+    id: reemplazaria
+    attributes:
+      label: 🔄 ¿Reemplazaría a un mod actual?
+      description: ¿Este mod debería reemplazar algún mod que ya está en el pack?
+      options:
+        - "No, es una adición nueva"
+        - "Sí, reemplazaría a: (especificar abajo)"
+        - "Podría reemplazar opcionalmente a: (especificar abajo)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reemplazo-detalles
+    attributes:
+      label: 🔄 Detalles del Reemplazo
+      description: Si marcaste que reemplaza a otro mod, explica por qué
+      placeholder: |
+        Este mod debería reemplazar a [Mod X] porque:
+        - Es más eficiente
+        - Tiene más características
+        - Mejor mantenimiento
+    validations:
+      required: false
+
+  - type: textarea
+    id: contexto-adicional
+    attributes:
+      label: 📋 Información Adicional
+      description: Cualquier otra información relevante
+      placeholder: Contexto extra, screenshots, comparaciones, etc.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: verificaciones
+    attributes:
+      label: ✔️ Verificaciones
+      description: Confirma lo siguiente antes de enviar
+      options:
+        - label: He buscado y este mod no ha sido sugerido antes
+          required: true
+        - label: El mod es compatible con Fabric 1.21
+          required: true
+        - label: He proporcionado al menos un enlace al mod
+          required: true
+        - label: He leído los criterios de aceptación de mods en CONTRIBUTING.md
+          required: true
+        - label: El mod no cambia mecánicas vanilla del juego
+          required: falsename: 💡 Sugerencia de Mod
+description: Sugiere un mod para incluir en el modpack
+title: "[MOD] "
+labels: ["sugerencia", "mod", "necesita revisión"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Gracias por sugerir un mod
+        Evaluamos cada sugerencia cuidadosamente. Por favor proporciona toda la información posible.
+        
+        **Recuerda que aceptamos mods que:**
+        - ✅ Sean compatibles con Fabric 1.21
+        - ✅ Mejoren rendimiento o añadan calidad de vida
+        - ✅ No cambien mecánicas vanilla
+        - ✅ Sean estables y activamente mantenidos
+
+  - type: input
+    id: nombre-mod
+    attributes:
+      label: 📦 Nombre del Mod
+      description: ¿Cómo se llama el mod?
+      placeholder: "Ejemplo: Better Biome Blend"
+    validations:
+      required: true
+
+  - type: input
+    id: autor-mod
+    attributes:
+      label: 👤 Autor del Mod
+      description: ¿Quién desarrolla el mod?
+      placeholder: "Ejemplo: JellySquid"
+    validations:
+      required: true
+
+  - type: input
+    id: link-modrinth
+    attributes:
+      label: 🔗 Link de Modrinth
+      description: Enlace al mod en Modrinth (preferido)
+      placeholder: "https://modrinth.com/mod/ejemplo"
+    validations:
+      required: false
+
+  - type: input
+    id: link-curseforge
+    attributes:
+      label: 🔗 Link de CurseForge
+      description: Enlace al mod en CurseForge (si no está en Modrinth)
+      placeholder: "https://www.curseforge.com/minecraft/mc-mods/ejemplo"
+    validations:
+      required: false
+
+  - type: input
+    id: link-github
+    attributes:
+      label: 🔗 Link de GitHub
+      description: Enlace al repositorio del mod (opcional)
+      placeholder: "https://github.com/usuario/mod"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: categoria
+    attributes:
+      label: 📂 Categoría del Mod
+      description: ¿En qué categoría entra este mod?
+      options:
+        - "⚡ Optimización de Rendimiento"
+        - "🎨 Mejoras Visuales"
+        - "🎮 Calidad de Vida"
+        - "🔧 Utilidades"
+        - "🌍 Compatibilidad"
+        - "🔊 Audio"
+        - "📝 Interfaz de Usuario"
+        - "Otra (especificar en descripción)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: 📝 ¿Qué hace este mod?
+      description: Describe brevemente la funcionalidad del mod
+      placeholder: |
+        Este mod mejora el blending entre biomas, haciendo transiciones más suaves sin impactar el rendimiento negativamente.
+    validations:
+      required: true
+
+  - type: textarea
+    id: beneficios
+    attributes:
+      label: ✨ ¿Por qué debería incluirse?
+      description: Explica qué beneficios traería al modpack
+      placeholder: |
+        - Mejora la experiencia visual
+        - No reduce FPS
+        - Es compatible con Sodium
+        - Muy solicitado por la comunidad
+    validations:
+      required: true
+
+  - type: dropdown
+    id: probado
+    attributes:
+      label: 🧪 ¿Has probado el mod personalmente?
+      description: ¿Has usado este mod y puedes dar feedback de primera mano?
+      options:
+        - "Sí, lo he probado extensivamente"
+        - "Sí, lo he probado brevemente"
+        - "No, pero conozco sus características"
+        - "No, solo lo encontré"
+    validations:
+      required: true
+
+  - type: textarea
+    id: experiencia
+    attributes:
+      label: 💭 Tu experiencia con el mod
+      description: Si lo probaste, comparte tu experiencia
+      placeholder: |
+        Lo usé durante 2 semanas y noté que...
+        - Rendimiento: Sin cambios negativos
+        - Estabilidad: Sin crashes
+        - Compatibilidad: Funciona bien con Sodium/Iris
+    validations:
+      required: false
+
+  - type: dropdown
+    id: impacto-rendimiento
+    attributes:
+      label: ⚡ Impacto en Rendimiento
+      description: ¿Cómo afecta el mod al rendimiento?
+      options:
+        - "🟢 Mejora el rendimiento"
+        - "🟡 Neutral (sin impacto notable)"
+        - "🟠 Impacto negativo menor"
+        - "🔴 Impacto negativo significativo"
+        - "❓ Desconocido"
+    validations:
+      required: true
+
+  - type: input
+    id: version-mod
+    attributes:
+      label: 📌 Versión del Mod
+      description: ¿Qué versión del mod sugieres?
+      placeholder: "Ejemplo: 1.2.3"
+    validations:
+      required: false
+
+  - type: input
+    id: tamano
+    attributes:
+      label: 💾 Tamaño del Mod
+      description: Tamaño aproximado del archivo .jar
+      placeholder: "Ejemplo: 150 KB"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: compatibilidad-sodium
+    attributes:
+      label: 🔵 ¿Compatible con Sodium?
+      description: ¿El mod funciona con Sodium sin problemas?
+      options:
+        - "✅ Sí, totalmente compatible"
+        - "⚠️ Compatible con ajustes"
+        - "❌ No compatible"
+        - "❓ Desconocido"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: compatibilidad-iris
+    attributes:
+      label: 🌈 ¿Compatible con Iris Shaders?
+      description: ¿El mod funciona con Iris sin problemas?
+      options:
+        - "✅ Sí, totalmente compatible"
+        - "⚠️ Compatible con ajustes"
+        - "❌ No compatible"
+        - "❓ Desconocido"
+        - "N/A (no relevante)"
+    validations:
+      required: true
+
+  - type: input
+    id: licencia
+    attributes:
+      label: 📜 Licencia del Mod
+      description: ¿Bajo qué licencia está el mod?
+      placeholder: "Ejemplo: MIT, LGPL-3.0, ARR, etc."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: estado-desarrollo
+    attributes:
+      label: 🔄 Estado de Desarrollo
+      description: ¿El mod está activamente mantenido?
+      options:
+        - "🟢 Activo (actualizado recientemente)"
+        - "🟡 Estable (no requiere actualizaciones)"
+        - "🟠 Mantenimiento ocasional"
+        - "🔴 Abandonado"
+        - "❓ Desconocido"
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternativas
+    attributes:
+      label: 🔀 Mods Alternativos
+      description: ¿Conoces mods similares que hagan lo mismo?
+      placeholder: |
+        Otros mods que hacen algo parecido:
+        - Mod A: hace X pero es más pesado
+        - Mod B: hace Y pero menos eficiente
+    validations:
+      required: false
+
+  - type: dropdown
+    id: reemplazaria
+    attributes:
+      label: 🔄 ¿Reemplazaría a un mod actual?
+      description: ¿Este mod debería reemplazar algún mod que ya está en el pack?
+      options:
+        - "No, es una adición nueva"
+        - "Sí, reemplazaría a: (especificar abajo)"
+        - "Podría reemplazar opcionalmente a: (especificar abajo)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reemplazo-detalles
+    attributes:
+      label: 🔄 Detalles del Reemplazo
+      description: Si marcaste que reemplaza a otro mod, explica por qué
+      placeholder: |
+        Este mod debería reemplazar a [Mod X] porque:
+        - Es más eficiente
+        - Tiene más características
+        - Mejor mantenimiento
+    validations:
+      required: false
+
+  - type: textarea
+    id: contexto-adicional
+    attributes:
+      label: 📋 Información Adicional
+      description: Cualquier otra información relevante
+      placeholder: Contexto extra, screenshots, comparaciones, etc.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: verificaciones
+    attributes:
+      label: ✔️ Verificaciones
+      description: Confirma lo siguiente antes de enviar
+      options:
+        - label: He buscado y este mod no ha sido sugerido antes
+          required: true
+        - label: El mod es compatible con Fabric 1.21
+          required: true
+        - label: He proporcionado al menos un enlace al mod
+          required: true
+        - label: He leído los criterios de aceptación de mods en CONTRIBUTING.md
+          required: true
+        - label: El mod no cambia mecánicas vanilla del juego
+          required: false

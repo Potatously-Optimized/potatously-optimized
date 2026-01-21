@@ -1,0 +1,66 @@
+# GitHub Action para exportar automáticamente el modpack
+# Se ejecuta cuando se crea una nueva release
+
+name: 🚀 Exportar Modpack
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch: # Permite ejecutar manualmente
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Checkout del repositorio
+        uses: actions/checkout@v4
+        
+      - name: 🔧 Instalar Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.21'
+          
+      - name: 📦 Instalar Packwiz
+        run: go install github.com/packwiz/packwiz@latest
+        
+      - name: 🗂️ Navegar a carpeta Packwiz
+        run: cd Packwiz
+        
+      - name: 🔄 Refrescar índice
+        working-directory: ./Packwiz
+        run: packwiz refresh
+        
+      - name: 📤 Exportar para Modrinth
+        working-directory: ./Packwiz
+        run: packwiz modrinth export
+        
+      - name: 📤 Exportar para CurseForge
+        working-directory: ./Packwiz
+        run: packwiz curseforge export
+        
+      - name: 📋 Listar archivos generados
+        run: |
+          echo "Archivos exportados:"
+          ls -lh Packwiz/*.mrpack
+          ls -lh Packwiz/*.zip
+          
+      - name: ⬆️ Subir artefactos a la release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ./Packwiz/*.mrpack
+          asset_name: Potatously-Optimized-${{ github.event.release.tag_name }}.mrpack
+          asset_content_type: application/zip
+          
+      # Opcional: Notificar en Discord
+      - name: 💬 Notificar en Discord
+        if: success()
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          curl -H "Content-Type: application/json" \
+               -d "{\"content\": \"🎉 Nueva versión de Potatously Optimized exportada: ${{ github.event.release.tag_name }}\"}" \
+               $DISCORD_WEBHOOK
