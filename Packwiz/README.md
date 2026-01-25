@@ -271,7 +271,7 @@ Si quieres contribuir añadiendo/actualizando mods:
 
 ¿Problemas con Packwiz?
 
-- **Issues del proyecto**: [GitHub Issues](https://github.com/Potatously/potatously-optimized/issues)
+- **Issues del proyecto**: [GitHub Issues](https://github.com/Potatously-Optimized/potatously-optimized/issues)
 - **Discord**: [Únete aquí](https://discord.gg/8z76Nbk4Ts)
 - **Documentación Packwiz**: https://packwiz.infra.link/
 

@@ -5,11 +5,11 @@
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.21-green?style=flat-square)
 ![Fabric](https://img.shields.io/badge/Fabric-Latest-blue?style=flat-square)
 ![Modrinth](https://img.shields.io/modrinth/dt/potatously-optimized?style=flat-square&logo=modrinth&label=Descargas)
-![Discord](https://img.shields.io/discord/TU_SERVER_ID?style=flat-square&logo=discord&label=Discord)
+![Discord](https://img.shields.io/discord/1282857477754585108?style=flat-square&logo=discord&label=Discord)
 
 **El modpack de optimización definitivo para la comunidad hispanohablante**
 
-[📥 Descargar](https://modrinth.com/modpack/potatously-optimized) • [💬 Discord](https://discord.gg/8z76Nbk4Ts) • [🐛 Reportar Bug](https://github.com/Potatously/potatously-optimized/issues) • [💡 Sugerir Mod](https://github.com/Potatously/potatously-optimized/issues/new?template=sugerencia-mod.md)
+[📥 Descargar](https://modrinth.com/modpack/potatously-optimized) • [💬 Discord](https://discord.gg/8z76Nbk4Ts) • [🐛 Reportar Bug](https://github.com/Potatously-Optimized/potatously-optimized/issues) • [💡 Sugerir Mod](https://github.com/Potatously-Optimized/potatously-optimized/issues/new?template=sugerencia-mod.md)
 
 </div>
 
@@ -137,8 +137,8 @@ Shaders: Activados (recomendamos Complementary)
 ¡Las contribuciones son bienvenidas! Lee nuestra [Guía de Contribución](CONTRIBUTING.md) para más información.
 
 ### Formas de contribuir:
-- 🐛 [Reportar bugs](https://github.com/Potatously/potatously-optimized/issues/new?template=reporte-bug.md)
-- 💡 [Sugerir mods](https://github.com/Potatously/potatously-optimized/issues/new?template=sugerencia-mod.md)
+- 🐛 [Reportar bugs](https://github.com/Potatously-Optimized/potatously-optimized/issues/new?template=reporte-bug.md)
+- 💡 [Sugerir mods](https://github.com/Potatously-Optimized/potatously-optimized/issues/new?template=sugerencia-mod.md)
 - 📝 Mejorar documentación
 - 🌍 Ayudar en Discord
 
@@ -160,7 +160,7 @@ Ver [CHANGELOG.md](CHANGELOG.md) para el historial completo de versiones.
 ## 📞 Soporte y Comunidad
 
 - 💬 **Discord**: [Únete a nuestro servidor](https://discord.gg/8z76Nbk4Ts)
-- 🐛 **Bugs**: [GitHub Issues](https://github.com/Potatously/potatously-optimized/issues)
+- 🐛 **Bugs**: [GitHub Issues](https://github.com/Potatously-Optimized/potatously-optimized/issues)
 - 💰 **Donaciones**: [Ko-fi](https://ko-fi.com/potatously)
 - 📧 **Email**: potatously.contact@gmail.com
 

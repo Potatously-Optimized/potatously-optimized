@@ -171,7 +171,7 @@ Respuestas a las preguntas más comunes sobre Potatously Optimized.
 1. Borra la carpeta `.minecraft` (haz backup de saves)
 2. Reinstala el modpack
 3. Asigna RAM correcta
-4. Si persiste, reporta en [Issues](https://github.com/Potatously/potatously-optimized/issues)
+4. Si persiste, reporta en [Issues](https://github.com/Potatously-Optimized/potatously-optimized/issues)
 
 ### Error: "Incompatible mod set!"
 
@@ -212,14 +212,14 @@ Respuestas a las preguntas más comunes sobre Potatously Optimized.
 
 ### ¿Cómo reporto un bug?
 
-1. Ve a [GitHub Issues](https://github.com/Potatously/potatously-optimized/issues)
+1. Ve a [GitHub Issues](https://github.com/Potatously-Optimized/potatously-optimized/issues)
 2. Busca si ya fue reportado
 3. Si no, crea un nuevo issue usando la plantilla
 4. Incluye TODA la información solicitada
 
 ### ¿Cómo sugiero un mod?
 
-Igual que bugs, usa la [plantilla de sugerencia de mod](https://github.com/Potatously/potatously-optimized/issues/new?template=sugerencia-mod.md)
+Igual que bugs, usa la [plantilla de sugerencia de mod](https://github.com/Potatously-Optimized/potatously-optimized/issues/new?template=sugerencia-mod.md)
 
 **Importante:**
 - Verifica que cumpla [criterios de aceptación](CONTRIBUTING.md#criterios-para-aceptar-mods)
@@ -285,7 +285,7 @@ Igual que bugs, usa la [plantilla de sugerencia de mod](https://github.com/Potat
 **Opciones:**
 - 🔔 Activa notificaciones en Modrinth
 - 💬 Únete al [Discord](https://discord.gg/8z76Nbk4Ts)
-- 📧 Watch en [GitHub](https://github.com/Potatously/potatously-optimized)
+- 📧 Watch en [GitHub](https://github.com/Potatously-Optimized/potatously-optimized)
 - 📱 Síguenos en redes sociales
 
 ### ¿Tendré que reinstalar todo?
@@ -429,7 +429,7 @@ Lee [CONTRIBUTING.md](CONTRIBUTING.md) para:
 **¿Tu pregunta no está aquí?**
 
 - 💬 **Discord**: [https://discord.gg/8z76Nbk4Ts](https://discord.gg/8z76Nbk4Ts)
-- 🐛 **GitHub**: [Issues](https://github.com/Potatously/potatously-optimized/issues)
+- 🐛 **GitHub**: [Issues](https://github.com/Potatously-Optimized/potatously-optimized/issues)
 - 📧 **Email**: [potatously.contact@gmail.com](mailto:potatously.contact@gmail.com)
 
 ---
@@ -438,7 +438,7 @@ Lee [CONTRIBUTING.md](CONTRIBUTING.md) para:
 
 **¡Esperamos que esta FAQ haya resuelto tus dudas! 🥔**
 
-Si crees que falta algo, [sugiérelo aquí](https://github.com/Potatously/potatously-optimized/issues/new?template=mejora.md)
+Si crees que falta algo, [sugiérelo aquí](https://github.com/Potatously-Optimized/potatously-optimized/issues/new?template=mejora.md)
 
 [⬆️ Volver arriba](#-preguntas-frecuentes-faq)
 

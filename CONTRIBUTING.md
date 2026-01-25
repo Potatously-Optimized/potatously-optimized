@@ -27,13 +27,13 @@ Este proyecto sigue nuestro [Código de Conducta](CODE_OF_CONDUCT.md). Al partic
 Hay muchas formas de contribuir sin necesidad de programar:
 
 ### 1. 🐛 Reportar Bugs
-¿Encontraste un problema? [Repórtalo aquí](https://github.com/Potatously/potatously-optimized/issues/new?template=reporte-bug.md)
+¿Encontraste un problema? [Repórtalo aquí](https://github.com/Potatously-Optimized/potatously-optimized/issues/new?template=reporte-bug.md)
 
 ### 2. 💡 Sugerir Mods
-¿Conoces un mod que debería estar incluido? [Sugiérelo aquí](https://github.com/Potatously/potatously-optimized/issues/new?template=sugerencia-mod.md)
+¿Conoces un mod que debería estar incluido? [Sugiérelo aquí](https://github.com/Potatously-Optimized/potatously-optimized/issues/new?template=sugerencia-mod.md)
 
 ### 3. ✨ Sugerir Mejoras
-¿Tienes ideas para mejorar el modpack? [Compártelas aquí](https://github.com/Potatously/potatously-optimized/issues/new?template=mejora.md)
+¿Tienes ideas para mejorar el modpack? [Compártelas aquí](https://github.com/Potatously-Optimized/potatously-optimized/issues/new?template=mejora.md)
 
 ### 4. 📝 Mejorar Documentación
 ¿Encontraste un error en la documentación o quieres mejorarla? ¡Los PRs son bienvenidos!
@@ -60,7 +60,7 @@ Responde preguntas en Discord, ayuda a otros usuarios, comparte tus configuracio
 
 ### Cómo Reportar un Bug
 
-Usa la [plantilla de reporte de bugs](https://github.com/Potatously/potatously-optimized/issues/new?template=reporte-bug.md) e incluye:
+Usa la [plantilla de reporte de bugs](https://github.com/Potatously-Optimized/potatously-optimized/issues/new?template=reporte-bug.md) e incluye:
 
 #### Información Obligatoria
 - ✅ **Descripción clara** del problema
@@ -156,7 +156,7 @@ Estamos especialmente interesados en:
 
 ### Cómo Sugerir un Mod
 
-Usa la [plantilla de sugerencia de mod](https://github.com/Potatously/potatously-optimized/issues/new?template=sugerencia-mod.md) e incluye:
+Usa la [plantilla de sugerencia de mod](https://github.com/Potatously-Optimized/potatously-optimized/issues/new?template=sugerencia-mod.md) e incluye:
 
 ```markdown
 **Nombre del Mod**: [Nombre]
@@ -194,7 +194,7 @@ Las mejoras pueden ser:
 - ⚙️ Nuevas características del modpack
 - 🌍 Traducciones o localizaciones
 
-Usa la [plantilla de mejora](https://github.com/Potatously/potatously-optimized/issues/new?template=mejora.md) para sugerencias.
+Usa la [plantilla de mejora](https://github.com/Potatously-Optimized/potatously-optimized/issues/new?template=mejora.md) para sugerencias.
 
 ---
 
@@ -318,7 +318,7 @@ Los contribuidores destacados serán:
 
 - 💬 **Discord**: [Únete aquí](https://discord.gg/8z76Nbk4Ts)
 - 📧 **Email**: potatously.contact@gmail.com
-- 🐛 **Issues**: [GitHub Issues](https://github.com/Potatously/potatously-optimized/issues)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/Potatously-Optimized/potatously-optimized/issues)
 
 ---
 

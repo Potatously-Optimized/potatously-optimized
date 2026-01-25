@@ -135,7 +135,7 @@ y este proyecto adhiere a [Versionado Semántico](https://semver.org/lang/es/).
 ## 🤝 Contribuciones al Changelog
 
 Si quieres contribuir con información sobre cambios:
-1. Reporta bugs en [Issues](https://github.com/Potatously/potatously-optimized/issues)
+1. Reporta bugs en [Issues](https://github.com/Potatously-Optimized/potatously-optimized/issues)
 2. Sugiere mods usando la plantilla correspondiente
 3. Participa en Discord para discusiones de cambios
 

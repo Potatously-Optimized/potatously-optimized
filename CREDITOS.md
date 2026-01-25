@@ -220,7 +220,7 @@ Si contribuyes significativamente al proyecto serás agregado a esta lista:
 
 ¿Falta alguien en esta lista? ¿Quieres corregir información?
 
-- **Issues**: [GitHub Issues](https://github.com/Potatously/potatously-optimized/issues)
+- **Issues**: [GitHub Issues](https://github.com/Potatously-Optimized/potatously-optimized/issues)
 - **Discord**: [Únete aquí](https://discord.gg/8z76Nbk4Ts)
 - **Email**: [potatously.contact@gmail.com](mailto:potatously.contact@gmail.com)
 
