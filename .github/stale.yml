@@ -1,0 +1,20 @@
+# Configuración de issues inactivos
+# Documentación: https://github.com/probot/stale
+
+daysUntilStale: 90
+daysUntilClose: 30
+
+only: issues
+
+exemptLabels:
+  - pinned
+  - en progreso
+
+staleLabel: inactivo
+
+markComment: >
+  Este issue ha estado inactivo durante 90 días. Se cerrará automáticamente en 30 días
+  si no hay nueva actividad. Si el problema sigue siendo relevante, deja un comentario
+  para mantenerlo abierto.
+
+limitPerRun: 30

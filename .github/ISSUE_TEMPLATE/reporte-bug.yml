@@ -1,160 +1,57 @@
-name: 🐛 Reporte de Bug
-description: Reporta un problema o error en el modpack
-title: "[BUG] "
-labels: ["bug", "necesita revisión"]
+name: Reporte de bug
+description: Reporta un problema con el modpack en su estado sin modificar. Para preguntas de uso, acude al Discord.
+labels: bug
 body:
   - type: markdown
     attributes:
       value: |
-        ## Gracias por reportar un bug
-        Por favor llena este formulario con la mayor información posible. Esto nos ayudará a resolver el problema más rápido.
-        
-        **Antes de continuar, verifica que:**
-        - ✅ Estás usando la última versión del modpack
-        - ✅ El bug no ha sido reportado antes
-        - ✅ No es causado por mods adicionales que añadiste
+        Antes de reportar, [busca en los issues existentes](https://github.com/Potatously-Optimized/potatously-optimized/issues) para evitar duplicados.
 
   - type: textarea
-    id: descripcion
     attributes:
-      label: 📝 Descripción del Bug
-      description: Describe claramente qué es lo que está mal
-      placeholder: Ejemplo "El juego crashea al abrir el inventario"
-    validations:
-      required: true
-
-  - type: textarea
-    id: pasos
-    attributes:
-      label: 🔄 Pasos para Reproducir
-      description: ¿Cómo podemos reproducir este bug?
-      placeholder: |
-        1. Inicia el juego
-        2. Crea un mundo nuevo
-        3. Presiona 'E' para abrir inventario
-        4. El juego crashea
-    validations:
-      required: true
-
-  - type: textarea
-    id: esperado
-    attributes:
-      label: ✅ Comportamiento Esperado
-      description: ¿Qué esperabas que sucediera?
-      placeholder: El inventario debería abrirse normalmente
-    validations:
-      required: true
-
-  - type: textarea
-    id: actual
-    attributes:
-      label: ❌ Comportamiento Actual
-      description: ¿Qué sucede en realidad?
-      placeholder: El juego se congela y crashea al abrir el inventario
+      label: Descripción del bug
+      description: Describe el problema con claridad. Para crashes, sube el log a [mclo.gs](https://mclo.gs/) e incluye el enlace.
     validations:
       required: true
 
   - type: input
-    id: version-modpack
     attributes:
-      label: 📦 Versión del Modpack
-      description: ¿Qué versión de Potatously Optimized estás usando?
-      placeholder: "Ejemplo: 1.0.0-beta.3"
+      label: Versión del modpack
+      description: Encuéntrala en la esquina inferior derecha del menú principal.
+      placeholder: "1.0.0"
     validations:
       required: true
 
   - type: dropdown
-    id: version-minecraft
     attributes:
-      label: 🎮 Versión de Minecraft
-      description: ¿En qué versión de Minecraft ocurre el bug?
+      label: Launcher
       options:
-        - 1.21
-        - 1.21.1
-        - 1.21.2
-        - 1.21.3
-        - Otra (especificar en descripción)
-    validations:
-      required: true
-
-  - type: dropdown
-    id: sistema-operativo
-    attributes:
-      label: 💻 Sistema Operativo
-      description: ¿Qué sistema operativo usas?
-      options:
-        - Windows 11
-        - Windows 10
-        - Linux (especificar distro en descripción)
-        - macOS
-        - Otro
+        - Modrinth App
+        - Prism Launcher
+        - ATLauncher
+        - MultiMC
+        - Minecraft Launcher (vanilla)
     validations:
       required: true
 
   - type: textarea
-    id: specs
     attributes:
-      label: 🖥️ Especificaciones del PC
-      description: |
-        Ayúdanos con información de tu hardware
-      placeholder: |
-        RAM asignada a Minecraft: 6GB
-        RAM total del sistema: 16GB
-        CPU: Intel Core i5-9400F
-        GPU: NVIDIA GTX 1650
-        Java: Java 21
-    validations:
-      required: true
-
-  - type: textarea
-    id: logs
-    attributes:
-      label: 📄 Logs
-      description: |
-        Por favor pega el contenido del archivo `latest.log` (ubicado en `.minecraft/logs/`)
-        O sube el archivo a https://mclo.gs y pega el enlace aquí
-      placeholder: Pega los logs aquí o enlace de mclo.gs
+      label: Contexto adicional
+      description: Capturas de pantalla, video, o cualquier información extra. Si es un crash, incluye el enlace de mclo.gs.
     validations:
       required: false
 
-  - type: textarea
-    id: capturas
+  - type: input
     attributes:
-      label: 📸 Capturas de Pantalla
-      description: Si es posible, añade capturas de pantalla del problema
-      placeholder: Arrastra imágenes aquí o pega enlaces
-    validations:
-      required: false
-
-  - type: textarea
-    id: mods-adicionales
-    attributes:
-      label: 🔧 Mods Adicionales
-      description: ¿Añadiste mods que no vienen en el modpack?
-      placeholder: Lista de mods adicionales que instalaste (si aplica)
-    validations:
-      required: false
-
-  - type: textarea
-    id: contexto
-    attributes:
-      label: 📋 Contexto Adicional
-      description: Cualquier otra información relevante
-      placeholder: Información extra que pueda ayudar
+      label: Discusión en Discord
+      description: Si ya lo comentaste en el Discord, incluye el enlace (opcional).
+      placeholder: "https://discord.com/channels/1282857477754585108/..."
     validations:
       required: false
 
   - type: checkboxes
-    id: verificaciones
     attributes:
-      label: ✔️ Verificaciones
-      description: Confirma que has hecho lo siguiente
+      label: Confirmación
       options:
-        - label: He buscado en issues existentes y este bug no ha sido reportado
-          required: true
-        - label: Estoy usando la última versión del modpack
-          required: true
-        - label: He probado sin mods adicionales (si añadí alguno)
-          required: false
-        - label: He leído la guía de contribución
+        - label: Este reporte es sobre el modpack sin modificar. No añadí mods ni resource packs adicionales. Si no es así, entiendo que debo usar el canal de soporte del Discord.
           required: true

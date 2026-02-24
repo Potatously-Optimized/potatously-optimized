@@ -1,449 +1,54 @@
-# ❓ Preguntas Frecuentes (FAQ)
+# Preguntas frecuentes
 
-Respuestas a las preguntas más comunes sobre Potatously Optimized.
+## Instalación
 
----
+**¿Cómo instalo el modpack?**
+Consulta la [guía de instalación](https://github.com/Potatously-Optimized/potatously-optimized/wiki/Instalación) en la wiki. El método más sencillo es a través de la Modrinth App.
 
-## 📦 Instalación y Uso
-
-### ¿Cómo instalo el modpack?
-
-**Método recomendado (Modrinth App):**
-1. Descarga [Modrinth App](https://modrinth.com/app)
-2. Busca "Potatously Optimized"
-3. Clic en "Instalar"
-4. ¡Listo para jugar!
-
-**Otros métodos**: Ver [README - Sección Instalación](README.md#-instalación)
-
-### ¿Funciona con mi launcher favorito?
-
-**Soportamos:**
-- ✅ Modrinth App (recomendado)
-- ✅ Prism Launcher
-- ✅ MultiMC
-- ✅ ATLauncher
-- ✅ Minecraft Launcher oficial (manual)
-
-**NO soportamos:**
-- ❌ Technic Launcher
-- ❌ Feed The Beast (FTB) Launcher
-
-### ¿Puedo usar OptiFine con este modpack?
-
-**No.** OptiFine es incompatible con Fabric y muchos mods de optimización.
-
-**Alternativa:** Usamos **Iris Shaders** que es:
-- ✅ Más eficiente que OptiFine
-- ✅ Compatible con Sodium
-- ✅ Soporta la mayoría de shaders
-- ✅ Mejor rendimiento
-
-### ¿Qué shaders recomiendas?
-
-**Ligeros (para PCs modestas):**
-- BSL Shaders
-- Sildur's Vibrant Shaders (Lite)
-- Vanilla Plus Shaders
-
-**Medio (PCs normales):**
-- Complementary Shaders
-- MakeUp Ultra Fast
-
-**Pesados (PCs potentes):**
-- Complementary Reimagined
-- BSL Shaders (High)
+**¿Funciona con mi launcher?**
+Consulta la tabla de launchers soportados en el [README](README).
 
 ---
 
-## ⚡ Rendimiento
+## Compatibilidad
 
-### ¿Cuánto mejora el rendimiento?
+**¿Puedo usar OptiFine?**
+No. OptiFine es incompatible con Fabric. El modpack incluye Iris Shaders como alternativa, que ofrece soporte de shaders con mejor rendimiento y compatibilidad total con Sodium.
 
-**Comparado con Vanilla:**
-- 📈 +40-60% FPS en promedio
-- 📉 -30% uso de RAM
-- ⏱️ -50% tiempo de carga
+**¿Funciona en servidores?**
+Sí. Todos los mods incluidos son de cliente, por lo que funcionan en cualquier servidor vanilla sin requerir nada adicional del lado del servidor.
 
-**Resultados varían según:**
-- Tu hardware
-- Configuración gráfica
-- Shaders activos
-- Distancia de renderizado
+**¿Puedo añadir mis propios mods?**
+Sí, con precaución. Verifica que sean compatibles con Fabric 1.21+ y pruébalos en un perfil separado antes. Los mods que modifiquen mecánicas vanilla o el sistema de renderizado tienen mayor probabilidad de generar conflictos.
 
-### Mi juego sigue lagueando, ¿qué hago?
-
-**Pasos de solución:**
-
-1. **Verifica RAM asignada:**
-   - Mínimo: 4GB
-   - Recomendado: 6GB
-   - No asignes TODA tu RAM
-
-2. **Reduce configuraciones:**
-   - Distancia de renderizado: 8-12 chunks
-   - Partículas: Mínimas
-   - Smooth Lighting: OFF
-   - VSync: ON (para estabilidad)
-
-3. **Desactiva shaders:**
-   - Los shaders impactan significativamente el rendimiento
-
-4. **Verifica drivers:**
-   - Actualiza drivers de tu GPU
-
-5. **Cierra programas en background:**
-   - Discord, navegadores, etc.
-
-### ¿Funciona en servidores?
-
-**Sí**, el modpack funciona en servidores vanilla sin modificar.
-
-**Lo que funciona:**
-- ✅ Mods de optimización (solo cliente)
-- ✅ Mods visuales (solo cliente)
-- ✅ Shaders (solo cliente)
-
-**Lo que NO funciona:**
-- ❌ Mods que requieren instalación en servidor
-- ❌ REI/Jade no mostrará información extra del servidor
+**¿Cambia el gameplay vanilla?**
+No. El modpack solo mejora el rendimiento, los gráficos y algunos aspectos de la interfaz sin alterar ninguna mecánica de juego.
 
 ---
 
-## 🎮 Gameplay
+## Rendimiento
 
-### ¿Cambia el gameplay vanilla?
+**¿Cuánta mejora de rendimiento puedo esperar?**
+Depende del hardware, pero en general el modpack ofrece una ganancia significativa de FPS y una reducción notable en el uso de RAM respecto a vanilla. Los resultados varían según la configuración gráfica, los shaders activos y la distancia de renderizado.
 
-**No.** Potatously Optimized mantiene la experiencia vanilla, solo mejora:
-- Rendimiento
-- Gráficos
-- Interfaz de usuario
-- Calidad de vida (sin cambiar mecánicas)
+**El juego va lento o crashea, ¿qué hago?**
+Asegúrate de usar Java 21 y tener al menos 4 GB de RAM asignados al launcher. Si añadiste mods adicionales, prueba sin ellos. Reducir la distancia de renderizado y desactivar los shaders también ayuda en equipos modestos. Si el problema persiste, reporta el inconveniente en [Issues](https://github.com/Potatously-Optimized/potatously-optimized/issues) adjuntando el archivo `latest.log`.
 
-### ¿Puedo añadir mis propios mods?
+**Error: "Incompatible mod set!"**
+Ocurre cuando hay mods incompatibles entre sí o con la versión de Minecraft. Reinstala el modpack desde cero sin mods adicionales. Si el error aparece en una instalación limpia, repórtalo.
 
-**Sí, pero con precaución:**
-
-**Recomendaciones:**
-- ✅ Mods puramente visuales/sonido
-- ✅ Mods de interfaz
-- ⚠️ Mods de optimización (pueden conflictuar)
-- ❌ Mods que cambien gameplay
-
-**Antes de añadir:**
-1. Verifica compatibilidad con Fabric 1.21
-2. Prueba en un perfil separado
-3. Revisa conflictos con mods existentes
-
-### ¿Incluye mods de contenido (items, bloques, mobs)?
-
-**No.** Potatously Optimized es un modpack de **optimización y gráficos**, no de contenido.
-
-**Si quieres contenido nuevo:**
-- Crea un perfil separado
-- Añade Potatously Optimized + mods de contenido
-- Considera incompatibilidades
+**Los shaders no funcionan.**
+Verifica que el archivo del shader esté en `.minecraft/shaderpacks/` y que lo hayas seleccionado en Opciones → Ajustes de vídeo → Shader Packs. Algunos shaders diseñados exclusivamente para OptiFine pueden no ser compatibles con Iris.
 
 ---
 
-## 🔧 Problemas Técnicos
+## General
 
-### El juego crashea al iniciar
+**¿El modpack es gratuito?**
+Sí, completamente.
 
-**Causas comunes:**
+**¿Puedo hacer videos o streams usando el modpack?**
+Sí, sin necesidad de pedir permiso. Se agradece mencionar el nombre del modpack y enlazar a su [página de Modrinth](https://modrinth.com/modpack/potatously-optimized).
 
-1. **Java incorrecta:**
-   - Necesitas Java 21 para Minecraft 1.21
-   - Descarga desde [Adoptium](https://adoptium.net/)
-
-2. **RAM insuficiente:**
-   - Mínimo 4GB asignados
-   - Verifica en configuración del launcher
-
-3. **Mods conflictivos:**
-   - ¿Añadiste mods adicionales?
-   - Prueba sin ellos
-
-4. **Versión incorrecta:**
-   - Usa la versión de Minecraft correcta (1.21)
-
-**Solución:**
-1. Borra la carpeta `.minecraft` (haz backup de saves)
-2. Reinstala el modpack
-3. Asigna RAM correcta
-4. Si persiste, reporta en [Issues](https://github.com/Potatously-Optimized/potatously-optimized/issues)
-
-### Error: "Incompatible mod set!"
-
-**Causa:** Mods incompatibles entre sí o con la versión de Minecraft
-
-**Solución:**
-1. Verifica que NO hayas añadido mods adicionales
-2. Reinstala el modpack fresco
-3. Reporta si persiste
-
-### Los shaders no funcionan
-
-**Verifica:**
-1. ✅ Iris está instalado (viene con el pack)
-2. ✅ El shader es compatible con Iris
-3. ✅ El archivo va en `.minecraft/shaderpacks/`
-4. ✅ Seleccionado en: Options → Video Settings → Shader Packs
-
-**Shaders NO compatibles:**
-- ❌ Shaders viejos de OptiFine
-- ❌ Shaders de versiones antiguas de Minecraft
-
-### REI/Jade no muestra recetas/información
-
-**En Singleplayer:**
-- Debería funcionar siempre
-- Verifica que los mods estén instalados
-- Tecla por defecto de REI: `R` (sobre un item)
-
-**En Multiplayer:**
-- REI funciona con recetas vanilla
-- Jade solo muestra información que el servidor permite
-- Esto es normal y esperado
-
----
-
-## 🌍 Comunidad
-
-### ¿Cómo reporto un bug?
-
-1. Ve a [GitHub Issues](https://github.com/Potatously-Optimized/potatously-optimized/issues)
-2. Busca si ya fue reportado
-3. Si no, crea un nuevo issue usando la plantilla
-4. Incluye TODA la información solicitada
-
-### ¿Cómo sugiero un mod?
-
-Igual que bugs, usa la [plantilla de sugerencia de mod](https://github.com/Potatously-Optimized/potatously-optimized/issues/new?template=sugerencia-mod.md)
-
-**Importante:**
-- Verifica que cumpla [criterios de aceptación](CONTRIBUTING.md#criterios-para-aceptar-mods)
-- No todos los mods serán aceptados
-
-### ¿Puedo hacer videos/streams del modpack?
-
-**¡Absolutamente sí!** De hecho, ¡nos encanta!
-
-**Por favor:**
-- ✅ Menciona "Potatously Optimized" en título/descripción
-- ✅ Enlaza a la [página de Modrinth](https://modrinth.com/modpack/potatously-optimized)
-- ✅ Monetiza tu contenido sin problemas
-
-**No es necesario pedir permiso.**
-
-### ¿Puedo usar el modpack en mi servidor?
-
-**Sí**, pero:
-- Los mods son **solo cliente**
-- No necesitas instalar nada en el servidor
-- Solo dile a tus jugadores que instalen el pack
-
----
-
-## 💰 Soporte y Donaciones
-
-### ¿El modpack es gratis?
-
-**Sí, completamente gratis** y siempre lo será.
-
-### ¿Puedo donar?
-
-**¡Sí!** Las donaciones ayudan a:
-- Mantener el proyecto activo
-- Hosting de servidores de prueba
-- Tiempo de desarrollo
-
-**Dona en:** [Ko-fi](https://ko-fi.com/potatously)
-
-### ¿Dónde va el dinero de las donaciones?
-
-- 🖥️ Hosting de servidores de prueba
-- ☕ Café (mucho café)
-- 💻 Herramientas de desarrollo
-- 🎨 Comisiones de arte (logos, banners)
-
-**Transparencia:** Publicaremos reportes en Discord
-
----
-
-## 🔄 Actualizaciones
-
-### ¿Con qué frecuencia se actualiza?
-
-**Calendario:**
-- 🟢 **Parches de bugs**: Cada 1-2 semanas
-- 🟡 **Actualizaciones menores**: Cada 3-4 semanas
-- 🔵 **Actualizaciones mayores**: Cada 2-3 meses
-
-### ¿Cómo me entero de nuevas versiones?
-
-**Opciones:**
-- 🔔 Activa notificaciones en Modrinth
-- 💬 Únete al [Discord](https://discord.gg/8z76Nbk4Ts)
-- 📧 Watch en [GitHub](https://github.com/Potatously-Optimized/potatously-optimized)
-- 📱 Síguenos en redes sociales
-
-### ¿Tendré que reinstalar todo?
-
-**No.** Las actualizaciones son incrementales:
-1. El launcher detectará la nueva versión
-2. Descargará solo lo cambiado
-3. Tus mundos y configuraciones se mantienen
-
-**Recomendación:** Haz backup de mundos antes de actualizar
-
----
-
-## 🆚 Comparaciones
-
-### ¿Es mejor que Fabulously Optimized?
-
-**Son diferentes:**
-
-| Aspecto | Potatously Optimized | Fabulously Optimized |
-|---------|---------------------|----------------------|
-| Idioma | 🇪🇸 Español | 🇬🇧 Inglés |
-| Enfoque | Rendimiento + Gráficos | Vanilla+ Experiencia |
-| Comunidad | Latinoamérica | Global |
-| Soporte | Discord ES | Discord EN |
-
-**Elige PO si:**
-- Hablas español
-- Quieres soporte en tu idioma
-- Buscas más opciones visuales
-
-**Elige FO si:**
-- Prefieres comunidad global
-- Quieres experiencia más vanilla
-- Documentación en inglés
-
-### ¿Y Simply Optimized?
-
-**Simply Optimized:**
-- Enfoque: Rendimiento puro
-- Menos mods visuales
-- Más minimalista
-
-**Potatously Optimized:**
-- Enfoque: Rendimiento + Gráficos
-- Más opciones visuales
-- Español
-
----
-
-## 🛠️ Avanzado
-
-### ¿Puedo modificar las configuraciones?
-
-**Sí**, en `.minecraft/config/`
-
-**Archivos principales:**
-- `sodium-options.json` - Config de Sodium
-- `iris.properties` - Config de Iris
-- Carpeta de cada mod
-
-**Precaución:** Cambios pueden afectar rendimiento
-
-### ¿Dónde están los saves?
-
-**Ubicación:** `.minecraft/saves/`
-
-**Backup recomendado:**
-- Antes de actualizar el modpack
-- Antes de experimentar con mods
-- Regularmente
-
-### ¿Puedo contribuir al proyecto?
-
-**¡Por supuesto!**
-
-Lee [CONTRIBUTING.md](CONTRIBUTING.md) para:
-- Reportar bugs
-- Sugerir mods
-- Mejorar documentación
-- Código (si aplica)
-
----
-
-## 📱 Soporte
-
-### ¿Dónde pido ayuda?
-
-**Orden de prioridad:**
-
-1. **Lee esta FAQ** - Puede que tu respuesta esté aquí
-2. **Discord** - Para soporte rápido: [Únete](https://discord.gg/8z76Nbk4Ts)
-3. **GitHub Issues** - Para bugs reproducibles
-4. **Reddit** - Comunidad más amplia
-
-### ¿Respondes preguntas en DM?
-
-**Preferimos canales públicos:**
-- Otros pueden aprender de la respuesta
-- Moderadores pueden ayudar
-- Queda documentado
-
-**Excepciones:**
-- Problemas de privacidad
-- Reportes de seguridad
-- Cuestiones personales
-
----
-
-## 🔮 Futuro
-
-### ¿Habrá versión para otras versiones de Minecraft?
-
-**Planeado:**
-- ✅ 1.21.x (todas las subversiones)
-- 🟡 1.22 (cuando salga)
-- ⚠️ 1.20.x (considerando)
-
-### ¿Vendrá a CurseForge?
-
-**Sí**, eventualmente.
-
-**Orden de prioridades:**
-1. ✅ Modrinth (actual)
-2. 🔵 Establecer comunidad
-3. 🟡 Expandir a CurseForge
-4. 🟢 Otras plataformas
-
-### ¿Planeas añadir mods de contenido?
-
-**No.** Potatously Optimized seguirá siendo un modpack de **optimización y gráficos**.
-
-**Alternativas:**
-- Crea tu propio perfil con PO + mods de contenido
-- Sugeriremos modpacks complementarios
-
----
-
-## 📞 Contacto
-
-**¿Tu pregunta no está aquí?**
-
-- 💬 **Discord**: [https://discord.gg/8z76Nbk4Ts](https://discord.gg/8z76Nbk4Ts)
-- 🐛 **GitHub**: [Issues](https://github.com/Potatously-Optimized/potatously-optimized/issues)
-- 📧 **Email**: [potatously.contact@gmail.com](mailto:potatously.contact@gmail.com)
-
----
-
-<div align="center">
-
-**¡Esperamos que esta FAQ haya resuelto tus dudas! 🥔**
-
-Si crees que falta algo, [sugiérelo aquí](https://github.com/Potatously-Optimized/potatously-optimized/issues/new?template=mejora.md)
-
-[⬆️ Volver arriba](#-preguntas-frecuentes-faq)
-
-</div>
-
----
-
-*Última actualización: Enero 2026*
+**¿Mi pregunta no está aquí?**
+Únete al [Discord](https://discord.gg/8z76Nbk4Ts) o abre un [issue](https://github.com/Potatously-Optimized/potatously-optimized/issues).

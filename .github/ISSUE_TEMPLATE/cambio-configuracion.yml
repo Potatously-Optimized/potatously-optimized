@@ -1,0 +1,45 @@
+name: Cambio de configuración
+description: Sugiere un cambio en las opciones o configuración de un mod ya incluido en el modpack.
+labels: configuracion
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Antes de sugerir un cambio, [busca en los issues existentes](https://github.com/Potatously-Optimized/potatously-optimized/issues) para evitar duplicados.
+        Si el cambio ya aparece en el CHANGELOG pero no lo ves reflejado, asegúrate de estar en la última versión del modpack.
+
+  - type: textarea
+    attributes:
+      label: Qué configuración cambiar
+      description: Describe el ajuste que propones — puede ser una opción de mod, un keybind, una configuración de launcher, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Por qué debería cambiarse
+      description: Cómo beneficia el cambio a todos los usuarios sin alejarse de la experiencia vanilla.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Información adicional
+      description: Cualquier otro dato relevante.
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: Discusión en Discord
+      description: Si ya lo comentaste en el Discord, incluye el enlace (opcional).
+      placeholder: "https://discord.com/channels/1282857477754585108/..."
+    validations:
+      required: false
+
+  - type: checkboxes
+    attributes:
+      label: Confirmación
+      options:
+        - label: Esta es una solicitud de cambio en la configuración del modpack, no una petición de mods nuevos ni funciones que no existan en los mods ya incluidos.
+          required: true

@@ -1,0 +1,53 @@
+name: Eliminación de mod
+description: Sugiere que un mod sea eliminado del modpack.
+labels: mod, eliminar
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Antes de solicitar la eliminación, [busca en los issues existentes](https://github.com/Potatously-Optimized/potatously-optimized/issues) para evitar duplicados.
+        Esta plantilla no es para solicitar reemplazos — para eso usa la plantilla de sugerencia de mod.
+
+  - type: input
+    attributes:
+      label: Issue original
+      description: Enlace o ID del issue donde se propuso añadir este mod, si lo conoces.
+      placeholder: "#123"
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Por qué fue incluido
+      description: Describe o recupera las razones por las que el mod fue añadido al modpack en su momento.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Por qué debería eliminarse
+      description: Argumenta con detalle por qué el mod ya no tiene lugar en el modpack. Sé respetuoso con el trabajo del desarrollador.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Información adicional
+      description: Cualquier otro dato relevante.
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: Discusión en Discord
+      description: Si ya lo comentaste en el Discord, incluye el enlace (opcional).
+      placeholder: "https://discord.com/channels/1282857477754585108/..."
+    validations:
+      required: false
+
+  - type: checkboxes
+    attributes:
+      label: Confirmación
+      options:
+        - label: Esta solicitud fue redactada de buena fe, considerando las razones por las que el mod fue añadido. No es una solicitud de reemplazo — para eso usaré la plantilla de sugerencia de mod.
+          required: true
