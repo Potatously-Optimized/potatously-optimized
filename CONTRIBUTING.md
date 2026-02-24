@@ -6,7 +6,7 @@
 
 ## Apoya a los desarrolladores
 
-Potatously Optimized no acepta donaciones directas. Todo el trabajo técnico lo hacen los desarrolladores de los mods incluidos, y es a ellos a quienes vale la pena apoyar — tal como lo hace [Fabulously Optimized](https://github.com/Fabulously-Optimized/fabulously-optimized), el modpack que inspiró este proyecto. Si PO te ha sido útil, considera apoyar a quienes lo hacen posible: puedes ver la lista completa con sus enlaces en [CREDITS](CREDITS).
+Potatously Optimized no acepta donaciones directas. Todo el trabajo técnico lo hacen los desarrolladores de los mods incluidos, y es a ellos a quienes vale la pena apoyar — tal como lo hace [Fabulously Optimized](https://github.com/Fabulously-Optimized/fabulously-optimized), el modpack que inspiró este proyecto. Si PO te ha sido útil, considera apoyar a quienes lo hacen posible: puedes ver la lista completa con sus enlaces en [CREDITS](CREDITS.md).
 
 ---
 
@@ -33,4 +33,4 @@ Busca issues existentes antes de abrir uno nuevo para evitar duplicados, y no us
 
 ---
 
-Las contribuciones a Potatously Optimized deben seguir su [Código de Conducta](CODE_OF_CONDUCT).
+Las contribuciones a Potatously Optimized deben seguir su [Código de Conducta](CODE_OF_CONDUCT.md).

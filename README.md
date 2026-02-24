@@ -58,10 +58,10 @@ Agradecimientos a:
 ---
 
 <!-- Archivos -->
-[file-contribute]: <CONTRIBUTING>
+[file-contribute]: <CONTRIBUTING.md>
 [file-faq]: <FAQ.md>
-[file-license]: <LICENSE>
-[file-mods]: <CREDITS>
+[file-license]: <LICENSE.md>
+[file-mods]: <CREDITS.md>
 
 <!-- Badges -->
 [badge-mc]: <https://img.shields.io/badge/Minecraft_+1.21-18181B?style=for-the-badge&logo=diaspora&logoColor=7C3AED>

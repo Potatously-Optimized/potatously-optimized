@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         Antes de sugerir un mod, [busca en los issues existentes](https://github.com/Potatously-Optimized/potatously-optimized/issues) para evitar duplicados.
-        Revisa también los [criterios de aceptación](https://github.com/Potatously-Optimized/potatously-optimized/blob/main/CONTRIBUTING) antes de continuar.
+        Revisa también los [criterios de aceptación](https://github.com/Potatously-Optimized/potatously-optimized/blob/main/CONTRIBUTING.md) antes de continuar.
 
   - type: input
     attributes:

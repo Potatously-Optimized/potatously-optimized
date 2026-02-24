@@ -6,7 +6,7 @@
 Consulta la [guía de instalación](https://github.com/Potatously-Optimized/potatously-optimized/wiki/Instalación) en la wiki. El método más sencillo es a través de la Modrinth App.
 
 **¿Funciona con mi launcher?**
-Consulta la tabla de launchers soportados en el [README](README).
+Consulta la tabla de launchers soportados en el [README](README.md).
 
 ---
 

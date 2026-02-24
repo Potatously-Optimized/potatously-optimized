@@ -38,7 +38,7 @@ packwiz modrinth export
 1. Realiza los cambios necesarios usando los comandos anteriores.
 2. Ejecuta `packwiz refresh` para actualizar el índice.
 3. Prueba el pack localmente antes de hacer commit.
-4. Documenta los cambios en [CHANGELOG](../CHANGELOG).
+4. Documenta los cambios en [CHANGELOG](../CHANGELOG.md).
 5. Haz commit con un mensaje descriptivo.
 
 No edites los archivos `.pw.toml` manualmente ni añadas archivos `.jar` al repositorio.
