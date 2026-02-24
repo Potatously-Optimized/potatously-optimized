@@ -8,8 +8,6 @@ Consulta la [guía de instalación](https://github.com/Potatously-Optimized/pota
 **¿Funciona con mi launcher?**
 Consulta la tabla de launchers soportados en el [README](README.md).
 
----
-
 ## Compatibilidad
 
 **¿Puedo usar OptiFine?**
@@ -24,8 +22,6 @@ Sí, con precaución. Verifica que sean compatibles con Fabric 1.21+ y pruébalo
 **¿Cambia el gameplay vanilla?**
 No. El modpack solo mejora el rendimiento, los gráficos y algunos aspectos de la interfaz sin alterar ninguna mecánica de juego.
 
----
-
 ## Rendimiento
 
 **¿Cuánta mejora de rendimiento puedo esperar?**
@@ -39,8 +35,6 @@ Ocurre cuando hay mods incompatibles entre sí o con la versión de Minecraft. R
 
 **Los shaders no funcionan.**
 Verifica que el archivo del shader esté en `.minecraft/shaderpacks/` y que lo hayas seleccionado en Opciones → Ajustes de vídeo → Shader Packs. Algunos shaders diseñados exclusivamente para OptiFine pueden no ser compatibles con Iris.
-
----
 
 ## General
 

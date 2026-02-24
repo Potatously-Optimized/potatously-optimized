@@ -1,6 +1,4 @@
-Este modpack se distribuye bajo la licencia BSD 3-Clause. En términos simples: puedes descargarlo, usarlo, compartirlo y modificarlo libremente, siempre que mantengas el aviso de copyright y la licencia en cualquier redistribución. No puedes usar el nombre de Potatously Optimized para promocionar versiones derivadas sin permiso previo.
-
----
+> Este modpack se distribuye bajo la licencia BSD 3-Clause. En términos simples: puedes descargarlo, usarlo, compartirlo y modificarlo libremente, siempre que mantengas el aviso de copyright y la licencia en cualquier redistribución. No puedes usar el nombre de Potatously Optimized para promocionar versiones derivadas sin permiso previo.
 
 Copyright 2026 Potatously Optimized Authors
 

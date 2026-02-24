@@ -17,8 +17,6 @@ Modpack de optimización para Minecraft con soporte en español.
 
 </div>
 
----
-
 ## Descargar
 
 [![Guía de Instalación][badge-install]][link-install]
@@ -36,15 +34,11 @@ Compatible con Windows, Linux y macOS a través de los siguientes launchers:
 | [MultiMC][link-app-multimc] | [Abrir][tutorial-multimc] | Fácil | Manual | Manual |
 | [Minecraft Launcher][link-app-vanilla] | [Abrir][tutorial-vanilla] | Manual | Manual | Manual |
 
----
-
 ## Acerca del modpack
 
 Potatously Optimized es un modpack construido sobre Fabric que reúne los mejores mods de rendimiento disponibles, configurados cuidadosamente para ofrecer la mayor ganancia de FPS posible sin sacrificar la experiencia de juego. No requiere configuración manual: funciona desde el primer momento.
 
 Está pensado especialmente para jugadores hispanohablantes que buscan una alternativa accesible, transparente y bien documentada.
-
----
 
 ## Créditos
 
@@ -54,8 +48,6 @@ Agradecimientos a:
 - [Fabulously Optimized][link-fo] y [Simply Optimized][link-so] por la inspiración
 - Miembros de la comunidad que reportan bugs y proponen mejoras
 - Todos quienes usan y comparten el modpack
-
----
 
 <!-- Archivos -->
 [file-contribute]: <CONTRIBUTING.md>
